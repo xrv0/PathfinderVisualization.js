@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pathfinding Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="controller">
+    <select name="algorithm" id="mode-selector">
+        <option value="A-Star">A*</option>
+        <option value="Dijkstra">Dijkstra</option>
+    </select>
+
+    <button id="start-button">Go!</button>
+
+    <select name="speed" id="speed-selector">
+        <option value="0">Slow</option>
+        <option value="1">Normal</option>
+        <option value="2">Fast</option>
+    </select>
+
+    <button class="normal-button" id="reset-button">Reset</button>
+
+</div>
+<span id="board">
+</span>
+
+<div id="footer">
+</div>
+
+<script src="js/Board.js"></script>
+</body>
+</html>
