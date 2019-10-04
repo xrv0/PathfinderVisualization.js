@@ -1,4 +1,4 @@
 # PathFinderVisualisation
  Fancy pahtfinding visualisation
 
-still need to edit the pathfinding algorithm tho
+still need to add the pathfinding algorithm tho
